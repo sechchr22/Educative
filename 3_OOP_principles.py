@@ -108,4 +108,5 @@ man = Person('sech', 34, 'Male', 'Hetero', 'Christian')
 print('Person religion is: ', man.get_religion())
 
 Teacher_1 = Teacher('Math', 4)
+Teacher_1.set_rel('Catolic')
 print('Teacher Religion is: ', Teacher_1.get_religion())
